@@ -1,0 +1,9 @@
+# This file tracks properties of this Flutter project.
+# Used by Flutter tooling to track, build and provide better support for Flutter apps,
+# as well as facilitate pub upgrades and upgrades check.
+# It is *not* intended for manual editing.
+
+format:
+  version: "1.1"
+flutter-root: ../../
+project-type: module

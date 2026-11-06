@@ -1,0 +1,44 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "patrol staging debug",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "debug",
+            "program": "lib/main_development.dart",
+            "args": [
+                "--dart-define=FLAVOR=staging",
+                "--dart-define=ENVIRONMENT=staging",
+                "--flavor",
+                "staging"
+            ]
+        },
+        {
+            "name": "patrol demo debug",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "debug",
+            "program": "lib/main_demo.dart",
+            "args": [
+                "--dart-define=FLAVOR=demo",
+                "--dart-define=ENVIRONMENT=demo",
+                "--flavor",
+                "demo"
+            ]
+        },
+        {
+            "name": "patrol production debug",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "debug",
+            "program": "lib/main_production.dart",
+            "args": [
+                "--dart-define=FLAVOR=production",
+                "--dart-define=ENVIRONMENT=production",
+                "--flavor",
+                "production"
+            ]
+        },
+    ]
+}

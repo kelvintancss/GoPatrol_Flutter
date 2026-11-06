@@ -1,0 +1,163 @@
+name: patrol
+description: "CSS Patrol Flutter App"
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.8.0
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_localizations:
+    sdk: flutter
+  cupertino_icons: ^1.0.8
+
+  # Custom packages
+  dio_client:
+    path: "packages/dio_client"
+  custom_network_image:
+    path: "packages/custom_network_image"
+  auth_service:
+    path: "packages/auth_service"
+  general_service:
+    path: "packages/general_service"
+  property_service:
+    path: "packages/property_service"
+  patrol_service:
+    path: "packages/patrol_service"
+  shirne_dialog:
+    path: "packages/shirne_dialog-4.8.3"
+
+  # State management
+  flutter_hooks: ^0.21.2
+  flutter_bloc: ^9.1.1
+  equatable: ^2.0.7
+
+  # Storage
+  shared_preferences: ^2.5.3
+  flutter_secure_storage: ^9.2.4
+  envied: ^1.2.0
+  hive: ^2.2.3
+  hive_flutter: ^1.1.0
+  sqflite: ^2.4.3
+  uuid: ^4.5.3
+
+  # Util
+  go_router: ^15.1.1
+  flutter_native_splash: ^2.4.6
+  flutter_flavorizr: ^2.3.1
+  intl: ^0.20.0
+  flutter_gen: ^5.10.0
+  get_it: ^8.0.3
+  flutter_screenutil: ^5.9.3
+  crypto: ^3.0.6
+  easy_debounce: ^2.0.3
+
+  # Firebase
+  firebase_messaging: ^15.2.6
+  firebase_core: ^3.13.1
+  firebase_crashlytics: ^4.3.10
+  device_info_plus: ^12.1.0
+  flutter_local_notifications: ^19.2.1
+  permission_handler: ^12.0.1
+  responsive_grid_list: ^1.4.1
+  # UI
+  dio: ^5.9.0
+  delayed_display: ^2.0.0
+  flutter_animate: ^4.5.2
+  google_fonts: ^8.0.1
+  loader_overlay: ^5.0.0
+  smooth_sheets: ^0.16.0
+  fluttertoast: ^9.0.0
+  remove_emoji: ^0.0.10
+  lottie: ^3.3.2
+  mime: ^2.0.0
+  http_parser: ^4.1.2
+  file_picker: ^10.3.10
+  flutter_image_compress: ^2.4.0
+  path_provider: ^2.1.5
+  image_picker: ^1.2.1
+  mobile_scanner: ^7.2.0
+  nfc_manager: ^4.0.2
+  qr_flutter: ^4.1.0
+  url_launcher: ^6.3.1
+
+  # Network
+  dio_smart_retry: ^7.0.1
+  internet_connection_checker_plus: ^2.7.2
+  connectivity_plus: ^7.1.1
+  package_info_plus: ^8.3.0
+
+  collection: ^1.19.1
+  bloc_concurrency: ^0.3.0
+  stream_transform: ^2.1.1
+  dart_ping: ^10.0.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+  build_runner: ^2.7.0
+  flutter_gen_runner: ^5.10.0
+  envied_generator: ^1.2.0
+
+flavorizr:
+  flavors:
+    staging:
+      app:
+        name: "Patrol Staging"
+      android:
+        applicationId: "com.css.patrol.int"
+        icon: assets/images/app-icon.png
+        firebase:
+          config: ".firebase/staging/google-services.json"
+      ios:
+        bundleId: "com.css.patrol.int"
+        icon: assets/images/app-icon.png
+    demo:
+      app:
+        name: "Patrol Demo"
+      android:
+        applicationId: "com.css.patrol.demo"
+        icon: assets/images/app-icon.png
+        firebase:
+          config: ".firebase/demo/google-services.json"
+      ios:
+        bundleId: "com.css.patrol.demo"
+        icon: assets/images/app-icon.png
+    production:
+      app:
+        name: "Patrol"
+      android:
+        applicationId: "com.css.patrol"
+        icon: assets/images/app-icon.png
+        firebase:
+          config: ".firebase/production/google-services.json"
+      ios:
+        bundleId: "com.css.patrol"
+        icon: assets/images/app-icon.png
+
+flutter_gen:
+  output: lib/gen/
+  line_length: 80
+
+flutter:
+  generate: true
+  uses-material-design: true
+  assets:
+    - assets/images/
+    - assets/lottie/
+
+flutter_native_splash:
+  color: "#ffffff"
+  background_image: "assets/images/app-icon.png"
+  android_12:
+    color: "#ffffff"
+    background_image: "assets/images/app-icon.png"
+  ios_content_mode: center
+
+android_12:
+  color: "#ffffff"
+  background_image: "assets/images/app-icon.png"
+  ios_content_mode: center

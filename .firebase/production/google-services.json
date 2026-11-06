@@ -1,0 +1,67 @@
+{
+  "project_info": {
+    "project_number": "35626419504",
+    "project_id": "css-patrol",
+    "storage_bucket": "css-patrol.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:35626419504:android:cc76d32c4195c9954634f5",
+        "android_client_info": {
+          "package_name": "com.css.patrol"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBkoaelWnswS5zWhauzVOto13a7IqgdLIY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:35626419504:android:bc278450643200b34634f5",
+        "android_client_info": {
+          "package_name": "com.css.patrol.demo"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBkoaelWnswS5zWhauzVOto13a7IqgdLIY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:35626419504:android:1938a7b4b0b9def84634f5",
+        "android_client_info": {
+          "package_name": "com.css.patrol.int"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBkoaelWnswS5zWhauzVOto13a7IqgdLIY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
