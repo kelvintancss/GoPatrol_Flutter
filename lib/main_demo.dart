@@ -11,14 +11,9 @@ void main() async {
   F.appFlavor = Flavor.demo;
   final binding = WidgetsFlutterBinding.ensureInitialized();
   await ScreenUtil.ensureScreenSize();
-  await Firebase.initializeApp(
-    options: const FirebaseOptions(
-      apiKey: "AIzaSyD4iCAgQE_dtdMEGxzWZOMJKzpyR5xpjlI",
-      appId: "1:119470567625:android:7f7892ce9cdbdbb5b79d18",
-      messagingSenderId: "119470567625",
-      projectId: "vmsnew-a3c5b",
-    ),
-  );
+  // Config comes from the flavor's google-services.json (Android) /
+  // GoogleService-Info.plist (iOS) — Firebase project `css-patrol`.
+  await Firebase.initializeApp();
   FlutterError.onError = FirebaseCrashlytics.instance.recordFlutterFatalError;
   await startup(Constants.demoApiBaseUrl);
   runApp(const PatrolApp());

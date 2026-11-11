@@ -115,6 +115,8 @@ flavorizr:
       ios:
         bundleId: "com.css.patrol.int"
         icon: assets/images/app-icon.png
+        firebase:
+          config: ".firebase/staging/GoogleService-Info.plist"
     demo:
       app:
         name: "Patrol Demo"
@@ -126,6 +128,8 @@ flavorizr:
       ios:
         bundleId: "com.css.patrol.demo"
         icon: assets/images/app-icon.png
+        firebase:
+          config: ".firebase/demo/GoogleService-Info.plist"
     production:
       app:
         name: "Patrol"
