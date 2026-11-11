@@ -26,7 +26,15 @@
     <string>$(FLUTTER_BUILD_NUMBER)</string>
     <key>LSRequiresIPhoneOS</key>
     <true/>
-    <key>NFCReaderUsageDescription</key>
+    <key>NSCameraUsageDescription</key>
+    <string>GoPatrol needs camera access to capture photos for patrol session and incident reports.</string>
+
+    <key>NSPhotoLibraryUsageDescription</key>
+    <string>GoPatrol needs photo library access to attach photos to patrol records and incident reports.</string>
+
+    <key>NSLocationWhenInUseUsageDescription</key>
+    <string>GoPatrol needs your location while you use the app to record the location of patrol activities.</string>
+        <key>NFCReaderUsageDescription</key>
     <string>Scan an NFC tag to check in at a patrol checkpoint.</string>
     <key>UIApplicationSceneManifest</key>
     <dict>

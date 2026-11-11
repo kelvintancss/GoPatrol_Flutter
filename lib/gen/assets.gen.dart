@@ -67,12 +67,7 @@ class $AssetsImagesGen {
       const AssetGenImage('assets/images/checked_color_white.png');
 
   /// File path: assets/images/checkin.png
-  AssetGenImage get checkin => 
-      const AssetGenImage('assets/images/checkin.png');
-
-  /// File path: assets/images/incident.png
-  AssetGenImage get incident => 
-      const AssetGenImage('assets/images/incident.png');
+  AssetGenImage get checkin => const AssetGenImage('assets/images/checkin.png');
 
   /// File path: assets/images/checkout.png
   AssetGenImage get checkout =>
@@ -109,6 +104,14 @@ class $AssetsImagesGen {
   /// File path: assets/images/guard_checkin.png
   AssetGenImage get guardCheckin =>
       const AssetGenImage('assets/images/guard_checkin.png');
+
+  /// File path: assets/images/incident.png
+  AssetGenImage get incident =>
+      const AssetGenImage('assets/images/incident.png');
+
+  /// File path: assets/images/internet_lost.png
+  AssetGenImage get internetLost =>
+      const AssetGenImage('assets/images/internet_lost.png');
 
   /// File path: assets/images/my_property_emt-list-icon.png
   AssetGenImage get myPropertyEmtListIcon =>
@@ -195,7 +198,6 @@ class $AssetsImagesGen {
     checkedColorGreen,
     checkedColorWhite,
     checkin,
-    incident,
     checkout,
     crossColorRed,
     entranceBarrier,
@@ -205,6 +207,8 @@ class $AssetsImagesGen {
     greenShield,
     greyShield,
     guardCheckin,
+    incident,
+    internetLost,
     myPropertyEmtListIcon,
     parking,
     parkingDefault,

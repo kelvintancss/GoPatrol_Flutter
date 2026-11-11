@@ -55,3 +55,6 @@ lib/env/env.g.dart
 **/Flutter/ephemeral/
 **/flutter/ephemeral/
 **/flutter_export_environment.sh
+
+# FVM Version Cache
+.fvm/
